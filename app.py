@@ -6,8 +6,8 @@ app = Flask(__name__)
 def home():
     return render_template("index.html")
 
-@app.route("/login", methods=["POST", "GET"])
-def login():
+@app.route("/renamer", methods=["POST", "GET"])
+def renamer():
     if request.method == "POST":
         user = request.form["nm"]
         user1 = replacer(user)
