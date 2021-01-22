@@ -1,5 +1,5 @@
 ﻿# RenamerAPI
-Adds copyright symbol to Company name
+Adds copyright symbol to Company name.
 Company names included are - Deloitte, Google, Amazon, Microsoft, Oracle
 
 API - https://renamer-api.herokuapp.com/renamer
